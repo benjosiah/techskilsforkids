@@ -1,8 +1,8 @@
 <template>
 <div>
-  <section class="bg-purple-900 h-screen w-full text-center align-middle flex text-white justify-center items-center -mt-20 px-10">
-
-    <div class="w-full">
+  <section class="bg h-screen w-full text-center align-middle flex text-white justify-center items-center -mt-20 px-10 relative">
+    <div class="h-screen w-full text-center px-10 absolute bg-over top-0 flex text-white justify-center items-center" >
+      <div class="w-full">
         <span class="text-3xl" >
           Lorem ipsum dolor sit amet consectetur.
         </span>
@@ -24,10 +24,7 @@
           </button>
         </div>
     </div>
-
-
-
-
+    </div>
   </section>
 
   <section class="w-full bg-gray-100 px-10 py-10 justify-around">
@@ -36,8 +33,8 @@
     </div>
 
     <div class="w-full flex">
-      <div class="h-96 w-1/2 bg-black mx-2">
-
+      <div class=" w-1/2 mx-2 text-right">
+        <img class="" src="./assets/portrait-black.jpg" alt="">
       </div>
       <div class="w-1/2 align-middle pt-20 items-center text-gray-700 px-20 text-lg">
         <h3 class="text-2xl my-4 font-semibold ">
@@ -97,8 +94,8 @@
         </div>
 
       </div>
-      <div class="h-96 w-1/2 bg-black mx-2">
-
+      <div class=" w-1/2 mx-2">
+        <img class="" src="./assets/small-black.jpeg" alt="">
       </div>
     </div>
   </section>
@@ -111,7 +108,7 @@
 
       <div class="text-center"> 
         <div class="bg-black h-32 w-32 m-auto rounded mb-2">
-
+          <img class="h-32 w-32 " src="./assets/5188769_51965.jpg" alt="">
         </div>
         <div>
           Lorem ipsum dolor sit amet.
@@ -120,7 +117,7 @@
       
       <div class="text-center">
         <div class="bg-black h-32 w-32 m-auto rounded mb-2">
-
+          <img class="h-32 w-32 " src="./assets/5188774_51970.jpeg" alt="">
         </div>
         <div>
           Lorem ipsum dolor sit amet.
@@ -129,7 +126,7 @@
 
       <div class="text-center">
         <div class="bg-black h-32 w-32 m-auto rounded mb-2">
-
+          <img class="h-32 w-32" src="./assets/6600427_3372062.jpeg" alt="">
         </div>
         <div>
           Lorem ipsum dolor sit amet.
@@ -138,7 +135,7 @@
 
       <div class="text-center">
         <div class="bg-black h-32 w-32 m-auto rounded mb-2">
-
+          <img class="h-32 w-32"  src="./assets/8555885.jpg" alt="">
         </div>
         <div>
           Lorem ipsum dolor sit amet.
@@ -147,7 +144,7 @@
 
     </div>
   </section>
-  <section class="w-full"> 
+  <section class="w-full my-20"> 
     <div class="m-auto text-center text-2xl font-semibold py-5 ">
       Lorem ipsum dolor sit amet, consectetur adipisicing.
     </div>
@@ -192,7 +189,7 @@
     </div>
   </section>
 
-  <section class="bg-black text-white px-20 pt-10 pb-10">
+  <section class="bg-black text-white px-20 pt-10 pb-10 ">
     <div class="flex flex-wrap px-20 justify-between">
       <div class="w-2/5 m-1">
           <h2>
@@ -267,5 +264,13 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+.bg{
+  background-image: url("./assets/childhood-modern.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.bg-over{
+  background: #00000083;
 }
 </style>
