@@ -2,19 +2,19 @@
 <div>
   <section class="bg h-screen w-full text-center align-middle flex text-white justify-center items-center -mt-20 px-10 relative">
     <div class="h-screen w-full text-center px-10 absolute bg-over top-0 flex text-white justify-center items-center" >
-      <div class="w-full">
-        <span class="text-3xl" >
-          Lorem ipsum dolor sit amet consectetur.
+      <div class="w-full px-32">
+        <span class="text-5xl py-10 mb-5" >
+          Tech Skills For kids.
         </span>
 
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. maxime ea, magni minima asperiores a et repudiandae. Explicabo expedita aut reprehenderit? Accusantium, est unde.
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi harum nemo alias ullam assumenda excepturi explicabo eligendi deleniti numquam corporis eos dignissimos neque, dolor impedit eius totam eum maiores ab.
+        <p class="pt-5 px-40">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. maxime ea, magni minima asperiores a et repudiandae. Explicabo expedit
+
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus magni modi veritatis deleniti excepturi accusantium quisquam facilis totam in omnis?
         </p>
 
-        <div class="mt-4 flex px-20 justify-center">
+
+        <div class="mt-4 flex px-20 py-10 justify-center">
           <button class="mx-10 px-10 py-5 border-2 rounded-full border-yellow-600 text-yellow-600">
               Quick start
           </button>
@@ -28,8 +28,8 @@
   </section>
 
   <section class="w-full bg-gray-100 px-10 py-10 justify-around">
-    <div class="m-auto text-center text-2xl font-semibold py-5 ">
-      Lorem ipsum dolor sit amet, consectetur adipisicing.
+    <div class="m-auto text-center text-4xl font-semibold py-5 ">
+      Our Learning Styles
     </div>
 
     <div class="w-full flex">
@@ -66,31 +66,33 @@
 
   <section class="w-full bg-white px-10 py-10 items-center justify-around h-auto">
     <div class="m-auto text-center text-2xl font-semibold py-5 ">
-      Lorem ipsum dolor sit amet, consectetur adipisicing.
+      Courses We offer 
     </div>
-    <div class="w-full flex">
-      <div class="w-1/2 align-middle pt-20 items-center text-gray-700 px-20 text-lg">
+    <div class="w-full flex justify-center items-center">
+      <div class="w-1/2 align-middle pt-20 items-center text-gray-700 px-20 text-2xl ">
         <h3 class="text-2xl my-4 font-semibold ">
-          Courses we offer
+          Courses
         </h3>
         <div class="w-full my-3 ">
-          <span></span> 
-          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.
+          <span>
+            <i class="fa-solid fa-bolt"></i>
+          </span> 
+            Web Development
         </div>
 
         <div class="w-full my-3">
           <span></span> 
-          Lorem ipsum dolor sit amet. Lorem, ipsum dolor.
+            Graphics abd Brand Design
         </div>
 
         <div class="w-full my-3">
           <span></span> 
-          <span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur.</span>
+          <span>Degital marketing.</span>
         </div>
 
         <div class="w-full my-3">
           <span></span> 
-          <span>Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+          <span>Financial Analysis.</span>
         </div>
 
       </div>
@@ -248,7 +250,10 @@
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import { config, dom } from '@fortawesome/fontawesome-svg-core'
+import { faCoffee, faStroopwafel, faDragon } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
 
 </script>
 
