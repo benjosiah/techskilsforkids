@@ -1,25 +1,25 @@
 <template>
 <div>
-  <section class="bg h-screen w-full text-center align-middle flex text-white justify-center items-center -mt-20 px-10 relative">
-    <div class="h-screen w-full text-center px-10 absolute bg-over top-0 flex text-white justify-center items-center" >
-      <div class="w-full px-32">
+  <section class="bg h-screen w-full text-center text-white justify-center relative">
+    <div class="h-screen w-full text-center sm:px-1 absolute bg-over top-0 flex text-white justify-center items-center" >
+      <div class="w-full sm:px-32 px-2">
         <span class="text-5xl py-10 mb-5" >
           Tech Skills For kids.
         </span>
 
-        <p class="pt-5 px-40">
+        <p class="pt-5 lg:px-40 md:px-2 ">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. maxime ea, magni minima asperiores a et repudiandae. Explicabo expedit
 
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus magni modi veritatis deleniti excepturi accusantium quisquam facilis totam in omnis?
         </p>
 
 
-        <div class="mt-4 flex px-20 py-10 justify-center">
-          <button class="mx-10 px-10 py-5 border-2 rounded-full border-yellow-600 text-yellow-600">
+        <div class="mt-4 flex flex-wrap px-20 py-10 justify-center">
+          <button class="mx-10 my-2 px-10 py-5 border-2 rounded-full border-yellow-600 text-yellow-600">
               Quick start
           </button>
 
-          <button class="mx-10 px-10 py-5 border-2 rounded-full border-white bg-yellow-600">
+          <button class="mx-10 my-2 px-10 py-5 border-2 rounded-full border-white bg-yellow-600">
             Learn more
           </button>
         </div>
@@ -27,16 +27,16 @@
     </div>
   </section>
 
-  <section class="w-full bg-gray-100 px-10 py-10 justify-around">
+  <section class="w-full bg-gray-100 py-10 justify-around">
     <div class="m-auto text-center text-4xl font-semibold py-5 ">
       Our Learning Styles
     </div>
 
-    <div class="w-full flex">
-      <div class=" w-1/2 mx-2 text-right">
-        <img class="" src="./assets/portrait-black.jpg" alt="">
+    <div class="w-full flex flex-wrap">
+      <div class=" lg:w-2/5 md:w-full sm:w-full mx-5 my-2 text-right">
+        <img class="w-full h-full" src="./assets/portrait-black.jpg" alt="">
       </div>
-      <div class="w-1/2 align-middle pt-20 items-center text-gray-700 px-20 text-lg">
+      <div class="lg:w-2/5 md:w-full sm:w-full align-middle items-center mx-5 text-gray-700 text-lg my-2">
         <h3 class="text-2xl my-4 font-semibold ">
           Courses we offer
         </h3>
@@ -64,12 +64,12 @@
     </div>
   </section>
 
-  <section class="w-full bg-white px-10 py-10 items-center justify-around h-auto">
+  <section class="w-full bg-white py-10 px-3 items-center justify-around h-auto">
     <div class="m-auto text-center text-2xl font-semibold py-5 ">
       Courses We offer 
     </div>
-    <div class="w-full flex justify-center items-center">
-      <div class="w-1/2 align-middle pt-20 items-center text-gray-700 px-20 text-2xl ">
+    <div class="w-full flex flex-wrap justify-center items-center">
+      <div class="lg:w-2/5 md:w-full sm:w-full align-middle items-center text-gray-700 text-2xl ">
         <h3 class="text-2xl my-4 font-semibold ">
           Courses
         </h3>
@@ -96,21 +96,21 @@
         </div>
 
       </div>
-      <div class=" w-1/2 mx-2">
+      <div class=" lg:w-2/5 md:w-full mx-2">
         <img class="" src="./assets/small-black.jpeg" alt="">
       </div>
     </div>
   </section>
 
   <section class="border-y border-1 border-gray-300 w-full py-10 px-5 my-2">
-    <div class="m-auto text-center text-2xl font-semibold py-5 ">
+    <div class="m-auto text-center text-2xl font-semibold">
       Lorem ipsum dolor sit amet, consectetur adipisicing.
     </div>
-    <div class="flex justify-evenly items-center">
+    <div class="flex flex-wrap justify-evenly items-center">
 
       <div class="text-center"> 
-        <div class="bg-black h-32 w-32 m-auto rounded mb-2">
-          <img class="h-32 w-32 " src="./assets/5188769_51965.jpg" alt="">
+        <div class="bg-black h-24 w-24 m-auto rounded mb-2">
+          <img class="h-24 w-24 " src="./assets/5188769_51965.jpg" alt="">
         </div>
         <div>
           Lorem ipsum dolor sit amet.
@@ -118,8 +118,8 @@
       </div>
       
       <div class="text-center">
-        <div class="bg-black h-32 w-32 m-auto rounded mb-2">
-          <img class="h-32 w-32 " src="./assets/5188774_51970.jpeg" alt="">
+        <div class="bg-black h-24 w-24 m-auto rounded mb-2">
+          <img class="h-24 w-24 " src="./assets/5188774_51970.jpeg" alt="">
         </div>
         <div>
           Lorem ipsum dolor sit amet.
@@ -127,8 +127,8 @@
       </div>
 
       <div class="text-center">
-        <div class="bg-black h-32 w-32 m-auto rounded mb-2">
-          <img class="h-32 w-32" src="./assets/6600427_3372062.jpeg" alt="">
+        <div class="bg-black h-24 w-24 m-auto rounded mb-2">
+          <img class="h-24 w-24" src="./assets/6600427_3372062.jpeg" alt="">
         </div>
         <div>
           Lorem ipsum dolor sit amet.
@@ -136,8 +136,8 @@
       </div>
 
       <div class="text-center">
-        <div class="bg-black h-32 w-32 m-auto rounded mb-2">
-          <img class="h-32 w-32"  src="./assets/8555885.jpg" alt="">
+        <div class="bg-black h-24 w-24 m-auto rounded mb-2">
+          <img class="h-24 w-24"  src="./assets/8555885.jpg" alt="">
         </div>
         <div>
           Lorem ipsum dolor sit amet.
@@ -152,7 +152,7 @@
     </div>
 
     <div class="w-2/3 m-auto flex flex-wrap justify-evenly items-center">
-      <div class="w-96 px-3 pt-24 py-3 text-center border border-gray-900 relative my-10">
+      <div class="w-96 px-3 pt-24 py-3 text-center border border-gray-900 relative my-5">
             <span class="absolute bg-black w-20 h-20 rounded-full top-1 left-0 right-0 m-auto  ">
 
             </span>
@@ -161,7 +161,7 @@
           </span>
       </div>
 
-      <div class="w-96 px-3 pt-24 py-3 text-center border border-gray-900 relative">
+      <div class="w-96 px-3 pt-24 py-3 text-center border border-gray-900 relative my-5">
             <span class="absolute bg-black w-20 h-20 rounded-full top-1 left-0 right-0 m-auto  ">
 
             </span>
@@ -170,7 +170,7 @@
           </span>
       </div>
 
-      <div class="w-96 px-3 pt-24 py-3 text-center border border-gray-900 relative">
+      <div class="w-96 px-3 pt-24 py-3 text-center border border-gray-900 relative my-5">
             <span class="absolute bg-black w-20 h-20 rounded-full top-1 left-0 right-0 m-auto  ">
 
             </span>
@@ -179,7 +179,7 @@
           </span>
       </div>
 
-      <div class="w-96 px-3 pt-24 py-3 text-center border border-gray-900 relative">
+      <div class="lg:w-96 md:w-full sm:w-full px-1 pt-24 py-3 text-center border border-gray-900 relative my-5">
             <span class="absolute bg-black w-20 h-20 rounded-full top-1 left-0 right-0 m-auto  ">
 
             </span>
@@ -191,9 +191,9 @@
     </div>
   </section>
 
-  <section class="bg-black text-white px-20 pt-10 pb-10 ">
-    <div class="flex flex-wrap px-20 justify-between">
-      <div class="w-2/5 m-1">
+  <section class="bg-black text-white pt-10 pb-10 ">
+    <div class="flex flex-wrap px-5 justify-between items-end">
+      <div class="lg:w-2/5 md:w-full sm:w-full m-1">
           <h2>
             Lorem, ipsum.
           </h2>
@@ -202,11 +202,9 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, fuga!
           </p>
 
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate nostrum incidunt nobis earum praesentium quaerat sequi aut minima? Eius, nemo!
-          </p>
+
       </div>
-      <div class="w-1/5 m-1">
+      <div class="lg:w-1/5 md:w-full sm:w-full m-1">
           <ul>
             <li>
               Lorem, ipsum dolor.
@@ -222,22 +220,9 @@
             </li>
           </ul>
       </div>
-      <div class="w-1/5 m-1">
+      <div class="lg:w-1/5 md:w-full sm:w-full m-1">
 
-        <ul>
-            <li>
-              Lorem, ipsum dolor.
-            </li>
-            <li>
-              Lorem, ipsum dolor.
-            </li>
-            <li>
-              Lorem, ipsum dolor.
-            </li>
-            <li>
-              Lorem, ipsum dolor.
-            </li>
-          </ul>
+
 
       </div>
 
