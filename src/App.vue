@@ -256,7 +256,7 @@
     <div class="w-2/3 m-auto flex flex-wrap justify-between items-center">
       <div class="lg:w-2/5 md:w-full sm:w-ful px-3 pt-24 py-3 text-center border border-gray-900 relative my-5">
             <span class="absolute bg-black w-20 h-20 rounded-full top-1 left-0 right-0 m-auto  ">
-
+                <img class="w-20 h-20 rounded-full" src="./assets/student.jpeg" alt="">
             </span>
           <span>
             I really enjoy using "train a child" for my learnig
@@ -265,7 +265,7 @@
 
       <div class="lg:w-2/5 md:w-full sm:w-ful px-3 pt-24 py-3 text-center border border-gray-900 relative my-5">
             <span class="absolute bg-black w-20 h-20 rounded-full top-1 left-0 right-0 m-auto  ">
-
+              <img class="w-20 h-20 rounded-full" src="./assets/student2.jpeg" alt="">
             </span>
           <span>
             It's been 4months since I started using train a child and it has really helped me alot
